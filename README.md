@@ -1,6 +1,10 @@
 The idea here is to copy one object to another or to a new instance, typically from some kind of DTO to a database model class or vice versa via extension method. For example
 
 ```csharp
+using CopyObjectLibrary;
+
+...
+
 var dest = source.CopyAs<SomeType>();
 ```
 
