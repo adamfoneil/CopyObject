@@ -3,6 +3,10 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>CopyObjectLibrary</RootNamespace>
+    <PackageId>AO.CopyObject</PackageId>
+    <Authors>Adam O'Neil</Authors>
+    <Product>AO.CopyObject</Product>
+    <Description>A small library for copying POCO objects with identically-named properties</Description>
   </PropertyGroup>
 
 </Project>
