@@ -12,6 +12,7 @@
     <PackageProjectUrl>https://github.com/adamfoneil/CopyObject</PackageProjectUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Copyright>Copyright (c) 2021 Adam O'Neil</Copyright>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
