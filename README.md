@@ -1,3 +1,6 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/43ykvn36cq4u67mu?svg=true)](https://ci.appveyor.com/project/adamosoftware/copyobject)
+[![Nuget](https://img.shields.io/nuget/v/AO.CopyObject)](https://www.nuget.org/packages/AO.CopyObject/)
+
 The idea here is to copy one object to another or to a new instance, typically from some kind of DTO to a database model class or vice versa via extension method. For example
 
 ```csharp
