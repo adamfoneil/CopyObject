@@ -7,6 +7,7 @@ using CopyObjectLibrary;
 
 var dest = source.CopyAs<SomeType>();
 ```
+This would copy matching properties of `source` to a new instance of type `SomeType dest`.
 
 This mapper requires properties to be identically-named and a type that's [close enough](https://github.com/adamfoneil/CopyObject/blob/master/CopyObject/TypeExtensions.cs#L12). "Close enough" means `T` == `T` but also `T` == `Nullable<T>` or `Nullable<T>` == `T`.
 
