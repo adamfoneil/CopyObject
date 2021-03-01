@@ -7,6 +7,17 @@
     <Authors>Adam O'Neil</Authors>
     <Product>AO.CopyObject</Product>
     <Description>A small library for copying POCO objects with identically-named properties</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/adamfoneil/CopyObject</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/adamfoneil/CopyObject</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
